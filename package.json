@@ -1,5 +1,5 @@
 {
-  "name": "Cardiomon Server",
+  "name": "Cardiomon_Server",
   "version": "1.0.0",
   "description": "Embedded systems prototype",
   "main": "index.js",
@@ -10,8 +10,9 @@
   "author": "Oscar Harris",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^14.17.0",
+    "@types/better-sqlite3": "^5.4.1",
     "@types/express": "^4.17.11",
+    "@types/node": "^14.17.0",
     "@typescript-eslint/eslint-plugin": "^4.21.0",
     "@typescript-eslint/parser": "^4.21.0",
     "eslint": "^7.23.0",
@@ -19,6 +20,7 @@
     "typescript": "^3.9.9"
   },
   "dependencies": {
+    "better-sqlite3": "^7.4.0",
     "express": "^4.17.1",
     "hsl-to-rgb-for-reals": "^1.1.1",
     "tiny-rng": "0.0.5"
